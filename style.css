@@ -78,6 +78,7 @@ h1 {
     font-size: clamp(60px, 12vw, 150px);
     letter-spacing: -5px;
     margin-bottom: 25px;
+    transform: translateX(-40px);
 }
 
 .hero p {
