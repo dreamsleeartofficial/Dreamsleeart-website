@@ -245,3 +245,55 @@ footer {
     }
 
 }
+/* SOCIALS */
+
+#socials {
+    padding: 120px 7%;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+#socials h2 {
+    font-size: clamp(45px, 8vw, 100px);
+    margin-bottom: 25px;
+}
+
+.social-intro {
+    max-width: 550px;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+    opacity: 0.6;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+
+    border: 1px solid #444;
+
+    padding: 15px 25px;
+
+    letter-spacing: 2px;
+    font-size: 12px;
+
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: white;
+    color: black;
+}
+
+.copyright {
+    margin-top: 80px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    opacity: 0.4;
+}
